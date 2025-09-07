@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frmcom</title>
+    <style type="text/css">
+    td, th {font-family: 'Sans Serif'; color:rgb(78, 31, 13);}
+    </style>
+</head>
+
+<body style="background-color: beige;">
+     <form action="" method="post" style="background-image: url(bsml.png); background-repeat: no-repeat; background-size: 70%; margin-left: 5%; margin-top: 4%; background-position-x: center;">
+        <fieldset style="border-color: rgb(27, 12, 12); width: 550px; border-radius: 8px; background: rgba(245, 245, 220, 1); box-shadow: inset -1px -1px 1px rgb(78, 31, 13); margin-left: 29%; margin-top: 4%;">
+            <legend style="color: #e7a427;"><b>Account</b></legend>
+            
+            <table>
+                <tr>
+                    <td><label for="usn">Username</label></td>
+                    <td><input style="border-color:rgb(78, 31, 13); border-radius: 8px;" type="text" id="nama" name="usn"/></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Password</label></td>
+                    <td><input style="border-color:rgb(78, 31, 13); border-radius: 8px;" type="password" id="pass" name="password"/></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+         <fieldset style="border-color: brown; width: 550px; border-radius: 8px; margin-bottom: 8px; background: rgba(245, 245, 220, 1); box-shadow: inset -1px -1px 1px rgb(78, 31, 13); margin-left: 29%;">
+            <legend style="color:#e7a427;"><b>About User</b></legend>
+            
+            <table>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gnd" id="ml">
+                        <label for="ml">Male</label>
+                        <br>
+                        <input type="radio" name="gnd" id="fml">
+                        <label for="fml">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="rsn">The Reason You Join This Community</label></td>
+                    <td><textarea style="border-color:rgb(78, 31, 13); border-radius: 8px;" id="rsn" name="rsn" rows="8" cols="32"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Favorite Music Genre</td>
+                    <td>
+                        <input type="checkbox" name="jazz" id="jz">
+                        <label for="jz">Jazz</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <input type="checkbox" name="R&B" id="rb">
+                        <label for="rb">R&B</label> &nbsp;
+
+                        <input type="checkbox" name="Rock" id="rc">
+                        <label for="rc">Rock</label>
+
+                        <br>
+
+                        <input type="checkbox" name="Hip Hop" id="hh">
+                        <label for="hh">Hip Hop</label> &nbsp;
+
+                        <input type="checkbox" name="Pop" id="pop">
+                        <label for="pop">Pop</label> &nbsp;&nbsp;&nbsp;
+
+                        <input type="checkbox" name="Classical" id="cls">
+                        <label for="cls">Classical</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="song">Choose A Music</label></td>
+                    <td>
+                        <select id="song" name="song">
+                            <option value="English songs">English songs</option>
+                            <option value="Japanese songs">Japanese songs</option>
+                            <option value="Indonesian songs">Indonesian songs</option>
+                            <option value="Korean songs">Korean songs</option>
+                            <option value="Brazilian songs">Brazilian songs</option>
+                            <option value="Filipino songs">Filipino songs</option>
+                        </select>
+                    </td>
+                </tr>
+
+            </table>
+         </fieldset>
+        <button style="margin: 5px; 
+        background: rgba(245, 245, 220, 1); border: 2px solid brown; 
+        padding: 5px 15px 5px 15px;
+	    color: brown;
+        box-shadow: inset -1px -1px 1px rgb(78, 31, 13);
+	    border-radius: 3px;
+	    border-radius: 3px;	
+	    font-weight: bold;
+        margin-left: 29%;" type="submit">Submit</buton>
+        <br>
+        <button style="margin: 5px; 
+        background: rgba(245, 245, 220, 1); border: 2px solid brown; 
+        padding: 5px 15px 5px 15px;
+	    color: brown;
+        box-shadow: inset -1px -1px 1px rgb(78, 31, 13);
+	    border-radius: 3px;
+	    border-radius: 3px;	
+	    font-weight: bold;" type="reset">Reset</button>
+</body>
+</html>
